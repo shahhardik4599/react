@@ -1,13 +1,6 @@
-var React = require("react");
-var ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
-const name = "Hardik";
-const no = 10;
+import App from "./App";
 
-ReactDOM.render(
-  <div>
-    <h1>Hello {name} </h1>
-    <p>Your fav number is {no}</p>
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
